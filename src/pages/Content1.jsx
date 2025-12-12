@@ -63,7 +63,7 @@
 
 import bb from "../pages/images/bg.png";
 import mm from "../pages/images/mobile.png";
-import bbb from "../pages/images/head.png";
+import bbb from "../pages/images/logo.png";
 export default function Content1() {
   return (
     <div className=" w-full">
@@ -82,14 +82,14 @@ export default function Content1() {
               <p className="text-2xl sm:text-4xl md:text-6xl xl:text-7xl text-center md:text-start font-montserrat font-bold w-full max-w-[646px] 2xl:max-w-[650px]">
                 Small Hints <span className="text-red-600">= Big Changes.</span>
               </p>
-              <button className="bg-red-600 text-white font-montserrat text-[16px] w-full max-w-[245px] sm:max-w-[295px]  md:max-w-[370px] sm:text-xl md:text-2xl font-medium py-[10px] md:py-4 px-[14px] md:px-6 rounded-xl mt-6">
+              <button className="bg-red-600 text-white font-montserrat text-[16px] w-full max-w-[245px] sm:max-w-[295px]  md:max-w-[370px] sm:text-xl md:text-2xl font-medium py-[8px] md:py-4 px-[14px] md:px-6 rounded-xl mt-6">
                 Start Your Free Trial Today
               </button>
             </div>
           </div>
 
           <div className="w-full max-w-[100%] md:max-w-[40%] flex justify-center md:justify-start 2xl:justify-center">
-            <img src={mm} alt="mm" className="h-[350px] md:h-[500px] 2xl:h-[750px] md:mt-[50px]" />
+            <img src={mm} alt="mm" className="h-[354px] md:h-[500px] 2xl:h-[750px] md:mt-[50px]" />
           </div>
         </div>
       </div>

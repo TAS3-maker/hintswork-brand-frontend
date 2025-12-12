@@ -38,7 +38,7 @@ export default function Content6() {
           Partner <span className="text-red-500">with HintsWork</span>
         </h2>
 
-        <p className="text-gray-500 text-base md:text-xl font-normal mb-10 max-w-2xl mx-auto">
+        <p className="text-[#666666] text-base sm:text-lg xl:text-2xl font-montserrat font-normal mb-10 max-w-2xl mx-auto">
           Are you a brand, wellness coach, or corporate looking to engage your audience? 
           Partner with us to launch your own Hints and grow together.
         </p>
@@ -58,7 +58,7 @@ export default function Content6() {
           >
             <div className="flex flex-col md:flex-row gap-4 mb-4 ">
               <div className="flex-1">
-                <label className="block text-sm font-medium text-gray-700">First Name</label>
+                <label className="block text-base font-normal text-[#414146]">First Name</label>
                 <input
                   type="text"
                   name="firstName"
@@ -69,7 +69,7 @@ export default function Content6() {
                 />
               </div>
               <div className="flex-1">
-                <label className="block text-sm font-medium text-gray-700">Last Name</label>
+                <label className="block text-base font-normal text-[#414146]">Last Name</label>
                 <input
                   type="text"
                   name="lastName"
@@ -82,7 +82,7 @@ export default function Content6() {
 
             <div className="flex flex-col md:flex-row gap-4 mb-4">
               <div className="flex-1">
-                <label className="block text-sm font-medium  text-gray-700">Email Address</label>
+                <label className="block text-base font-normal text-[#414146]">Email Address</label>
                 <input
                   type="email"
                   name="email"
@@ -93,7 +93,7 @@ export default function Content6() {
               </div>
 
               <div className="flex-1">
-                <label className="block text-sm font-medium text-gray-700">Phone Number</label>
+                <label className="block text-base font-normal text-[#414146]">Phone Number</label>
                 <input
                   type="tel"
                   name="phone"
@@ -105,7 +105,7 @@ export default function Content6() {
             </div>
 
             <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-700">Write a message...</label>
+              <label className="block text-base font-normal text-[#414146]">Write a message...</label>
               <textarea
                 name="message"
                 rows="4"

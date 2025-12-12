@@ -41,7 +41,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col text-black">
       <div className="flex justify-center items-center w-full h-[120px] bg-white mb-5">
-        <img src={logo} alt="HintsWork Logo" className="h-20" />
+        <img src={logo} alt="HintsWork Logo" className="h-16 sm:h-20" />
       </div>
 
       <div className="flex flex-col justify-around w-full bg-[#f5f2e1] px-6 py-8 ">
@@ -88,7 +88,7 @@ const Footer = () => {
           />
         </div> */}
         <div>
-          <ul className='flex align-middle justify-center gap-1 text-[16px] sm:text-[20px]'>
+          <ul className='flex align-middle justify-center text-[#000000] gap-1 text-[16px] sm:text-[20px] 2xl:text-3xl font-montserrat'>
             <li>
               <Link to='/' >[terms of use] |</Link>
             </li>
@@ -106,7 +106,7 @@ const Footer = () => {
             to="https://twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-500"
+            className="hover:text-black"
           >
             <FaXTwitter />
           </Link>
@@ -160,7 +160,7 @@ const Footer = () => {
 
         <div className="w-full border-t border-gray-400 my-6"></div>
 
-        <div className="text-center text-base text-gray-700">
+        <div className="text-center text-[16px] sm:text-[20px] 2xl:text-3xl font-montserrat text-[#000000]">
           © 2025 hints work
         </div>
       </div>

@@ -13,7 +13,7 @@ export default function Content4() {
                     <div className="flex flex-col-reverse md:flex-row-reverse items-start md:items-center justify-start md:justify-center gap-4 md:gap-8">
                         <div className="w-full max-w-1/2 relative">
                             
-                            <p className="font-montserrat font-medium text-lg md:text-2xl text-[#525252] mb-2">At HintsWork, every hint is rooted in<span className="font-bold">behavioral science + nutrition</span>research.</p>
+                            <p className="font-montserrat font-medium text-lg md:text-2xl text-[#525252] mb-2">At HintsWork, every hint is rooted in<span className="font-bold">behavioral science + nutrition </span>research.</p>
                             <div className="flex flex-col gap-3">
                                 <div className="flex items-start justify-start gap-2 md:gap-4">
                                     <img src={check} alt="check" className="w-5 sm:w-6 md:w-8 h-5 sm:h-6 md:h-8 mt-1" />

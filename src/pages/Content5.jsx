@@ -16,7 +16,7 @@ export default function Content5() {
         Choose <span className="text-red-500">Your Plan</span>
       </h2>
 
-      <p className="text-gray-500 text-lg 2xl:text-xl text-center md:text-left mt-4 max-w-xl mx-auto md:mx-0">
+      <p className="text-[#666666] text-base sm:text-lg xl:text-2xl font-montserrat text-center md:text-left mt-4 max-w-xl mx-auto md:mx-0">
         Start Free. Upgrade anytime. No commitments.
       </p>
 
