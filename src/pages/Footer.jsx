@@ -88,7 +88,7 @@ const Footer = () => {
           />
         </div> */}
         <div>
-          <ul className='flex align-middle justify-center text-[#000000] gap-1 text-[16px] sm:text-[20px] 2xl:text-3xl font-montserrat'>
+          <ul className='flex align-middle justify-center text-[#000000] gap-1 text-[16px] sm:text-[20px] font-montserrat'>
             <li>
               <Link to='/' >[terms of use] |</Link>
             </li>
@@ -160,7 +160,7 @@ const Footer = () => {
 
         <div className="w-full border-t border-gray-400 my-6"></div>
 
-        <div className="text-center text-[16px] sm:text-[20px] 2xl:text-3xl font-montserrat text-[#000000]">
+        <div className="text-center text-base font-montserrat text-[#000000]">
           © 2025 hints work
         </div>
       </div>

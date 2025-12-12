@@ -34,11 +34,11 @@ export default function Content6() {
     <>
       <div className="relative text-center m-auto px-6 mt-10 bg-white w-full max-w-[1200px]">
         <div className='relative z-10'>
-        <h2 className="text-4xl md:text-6xl xl:text-7xl 2xl:text-8xl font-bold mb-6">
+        <h2 className="text-4xl md:text-6xl xl:text-7xl font-bold mb-6">
           Partner <span className="text-red-500">with HintsWork</span>
         </h2>
 
-        <p className="text-[#666666] text-base sm:text-lg xl:text-2xl font-montserrat font-normal mb-10 max-w-2xl mx-auto">
+        <p className="text-[#666666] text-base md:text-lg 2xl:text-2xl font-montserrat font-normal mb-10 max-w-2xl mx-auto">
           Are you a brand, wellness coach, or corporate looking to engage your audience? 
           Partner with us to launch your own Hints and grow together.
         </p>

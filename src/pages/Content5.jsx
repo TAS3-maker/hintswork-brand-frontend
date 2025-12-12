@@ -12,15 +12,15 @@ export default function Content5() {
   ];
   return (
     <div className="mt-10 px-6 max-w-7xl mx-auto flex flex-col items-center">
-      <h2 className="text-4xl md:text-6xl xl:text-7xl 2xl:text-8xl font-bold text-center md:text-left">
+      <h2 className="text-4xl md:text-6xl xl:text-7xl font-bold text-center md:text-left">
         Choose <span className="text-red-500">Your Plan</span>
       </h2>
 
-      <p className="text-[#666666] text-base sm:text-lg xl:text-2xl font-montserrat text-center md:text-left mt-4 max-w-xl mx-auto md:mx-0">
+      <p className="text-[#666666] text-base md:text-lg 2xl:text-2xl font-montserrat text-center md:text-left mt-4 max-w-xl mx-auto md:mx-0">
         Start Free. Upgrade anytime. No commitments.
       </p>
 
-      <div className="mt-10 flex flex-col md:flex-row justify-center gap-6 w-full max-w-[100%] sm:max-w-[70%]">
+      <div className="mt-5 flex flex-col md:flex-row justify-center gap-6 w-full max-w-[100%] sm:max-w-[70%]">
         {plans.map(({ img, title, price, desc, icon }, idx) => (
           <div
             key={idx}

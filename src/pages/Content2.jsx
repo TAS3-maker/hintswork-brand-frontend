@@ -5,7 +5,7 @@ export default function Content2(){
             <div className="flex items-center justify-center">
             
             
-                <div className="w-full max-w-6xl m-auto px-4 md:px-1">
+                <div className="w-full max-w-[1050px] 2xl:max-w-[1250px] m-auto px-4">
                   <h1 className="text-4xl md:text-6xl xl:text-7xl font-montserrat font-bold text-center mb-7">What is <span className="text-red-600">HintDiet?</span></h1>
                   
                   <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
@@ -13,9 +13,9 @@ export default function Content2(){
                         <img src={rr} alt="rr" className=""/>
                     </div>
                     <div className="w-full max-w-1/2 flex flex-col justify-start items-start gap-5">
-                        <p className="text-lg md:text-2xl text-[#666666] font-montserrat font-medium">Smart, simple nutrition guidance delivered daily.</p>
-                        <p className="text-lg md:text-2xl text-[#666666] font-montserrat font-normal">HintDiet is your personal micro-nutrition coach, bringing quick, actionable tips to help you make healthier food choices every day. </p>
-                        <p className="text-lg md:text-2xl text-[#666666] font-montserrat font-normal">Each hint is designed to fit seamlessly into your lifestyle — no complicated diets, no long reading — just simple, practical guidance to improve your eating habits.</p>
+                        <p className="text-base md:text-lg 2xl:text-2xl text-[#666666] font-montserrat font-semibold">Smart, simple nutrition guidance delivered daily.</p>
+                        <p className="text-base 2xl:text-xl text-[#666666] font-montserrat font-normal">HintDiet is your personal micro-nutrition coach, bringing quick, actionable tips to help you make healthier food choices every day. </p>
+                        <p className="text-base 2xl:text-xl text-[#666666] font-montserrat font-normal">Each hint is designed to fit seamlessly into your lifestyle — no complicated diets, no long reading — just simple, practical guidance to improve your eating habits.</p>
                     </div>
                   </div>
                   
