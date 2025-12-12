@@ -66,20 +66,20 @@ import mm from "../pages/images/mobile.png";
 import bbb from "../pages/images/head.png";
 export default function Content1() {
   return (
-    <div className="2xl:flex 2xl:items-center w-full">
-      <div className="relative w-full h-[575px] sm:h-[610px] md:h-[550px] 2xl:w-[2390px] 2xl:h-[1093px]">
+    <div className=" w-full">
+      <div className="relative w-full h-[575px] sm:h-[610px] md:h-[550px] 2xl:w-full 2xl:h-[800px]">
         <img
           src={bb}
           alt="bb"
           className="w-full h-full object-fill"
         />
-        <img src={bbb} alt="bbb" className="w-[175px] md:w-[275px] h-[60px] md:h-[100px] absolute top-4 md:top-8 left-[5%] md:left-[8%]" />
+        <img src={bbb} alt="bbb" className="w-[175px] md:w-[275px] h-[60px] md:h-[100px] absolute top-4 md:top-8 left-[5%] md:left-[8%] 2xl:left-[208px]" />
         <div className="absolute top-[12%] sm:top-[15%] md:top-0 inset-0 flex flex-col md:flex-row justify-center md:justify-around items-center px-2 md:px-0">
         
           <div className="w-full max-w-[100%] md:max-w-[60%] flex flex-col items-center md:items-start justify-center md:justify-between">
             {/* <img src={bbb} alt="bbb" className="w-[350px] h-[125px]" /> */}
-            <div className="pl-1 md:pl-20 pt-14 flex flex-col items-center md:items-start justify-center md:justify-start">
-              <p className="text-2xl sm:text-4xl md:text-6xl xl:text-7xl text-center md:text-start font-montserrat font-bold w-full max-w-[550px]">
+            <div className="pl-1 2xl:pl-52 md:pl-24 pt-14 flex flex-col items-center md:items-start justify-center md:justify-start">
+              <p className="text-2xl sm:text-4xl md:text-6xl xl:text-7xl text-center md:text-start font-montserrat font-bold w-full max-w-[646px] 2xl:max-w-[650px]">
                 Small Hints <span className="text-red-600">= Big Changes.</span>
               </p>
               <button className="bg-red-600 text-white font-montserrat text-[16px] w-full max-w-[245px] sm:max-w-[295px]  md:max-w-[370px] sm:text-xl md:text-2xl font-medium py-[10px] md:py-4 px-[14px] md:px-6 rounded-xl mt-6">
@@ -88,8 +88,8 @@ export default function Content1() {
             </div>
           </div>
 
-          <div className="w-full max-w-[100%] md:max-w-[40%] flex justify-center md:justify-start">
-            <img src={mm} alt="mm" className="h-[350px] md:h-[500px] md:mt-[50px]" />
+          <div className="w-full max-w-[100%] md:max-w-[40%] flex justify-center md:justify-start 2xl:justify-center">
+            <img src={mm} alt="mm" className="h-[350px] md:h-[500px] 2xl:h-[750px] md:mt-[50px]" />
           </div>
         </div>
       </div>
